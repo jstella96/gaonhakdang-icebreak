@@ -17,4 +17,6 @@ module.exports = {
       },
     },
   },
+  publicPath: '/gaonhakdang-icebreak',
+  outputDir: 'docs'
 };
