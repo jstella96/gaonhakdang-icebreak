@@ -37,7 +37,6 @@ export default {
   },
   created() {
     this.init();
-    this.start()
   },
   methods: {
     init(){
