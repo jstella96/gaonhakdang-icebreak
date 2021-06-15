@@ -1,0 +1,91 @@
+body {
+  -ms-overflow-style: none;
+}
+#container {
+  width: 100%;
+}
+#mainPage {
+  width: 100%;
+  height: 100vh;
+  background-color: #019098;
+  text-align: center;
+  .title {
+    margin-top: 26vh;
+    color: #ffffff;
+    font-size: 85px;
+  }
+  .router-link :visited {
+    color: #f3b500;
+  }
+  .el-button {
+    width: 150px;
+    margin-top: 5vh;
+    font-size: 20px;
+  }
+  .el-button :hover {
+    cursor: pointer;
+    color: #00838a;
+  }
+}
+#talkCardPage {
+  margin: 30px 70px;
+  .card {
+    width: 15vw;
+    margin: 6% 7%;
+    text-align: center;
+    height: 35vh;
+    border-radius: 15px;
+    color: #ffffff;
+    position: relative;
+  }
+  .cardImg {
+    z-index: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  .card :hover {
+    width: 15.5vw;
+    height: 35.5vh;
+    cursor: pointer;
+  }
+  .index {
+    z-index: 100;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    color: #ffffff;
+    background-color: #ffacb7;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .index:hover {
+    width: 30px;
+    height: 30px;
+  }
+  .top {
+    span {
+      margin: 15px;
+    }
+  }
+}
+#cardDialog {
+  border-radius: 20px;
+  .dialogBox {
+    text-align: center;
+    align-items: center;
+  }
+  .dialogImg {
+    object-fit: cover;
+    width: 35%;
+  }
+  .answer {
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+  }
+}
