@@ -1,6 +1,7 @@
 # 가온학당 - Ice Break
 
 인도네시아 학생들과 하는 한국어 수업때 사용하려고 만든 나눔지 :purple_heart:
+**[바로가기 클릭](https://jstella96.github.io/gaonhakdang-icebreak/#/)**:purple_heart:
 
 ## Stack
 
